@@ -12,7 +12,7 @@
     'document',
     'addEventListener',
     'let',
-    
+  
   ]
 
   let word;
