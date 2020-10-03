@@ -11,6 +11,8 @@
     'getElementById',
     'document',
     'addEventListener',
+    'let',
+    
   ]
 
   let word;
