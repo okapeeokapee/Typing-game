@@ -13,6 +13,15 @@ body{
   text-align: center;
   margin: auto;
   background: #FFFFEE;
+  user-select: none;
+  cursor: pointer;
+  box-shadow: 2px 4px 8px;
+}
+.frame:hover{
+  opacity: .8;
+}
+.frame:active{
+  box-shadow: 2px 2px 8px;
 }
 .reframe{
   font-size:30px ;
