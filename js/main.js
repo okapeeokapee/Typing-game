@@ -12,6 +12,11 @@
     'document',
     'addEventListener',
     'let',
+    'classList',
+    'textContent',
+    '${',
+    'function',
+    'Math.floor(Math.random',
   ]
 
   let word;
@@ -24,10 +29,19 @@
     if(isPlaying === true){
       return;
     }
-
     isPlaying = true;
     startTime = Date.now();
     setWord();
+  });
+
+  target.addEventListener('click', () =>{
+    document.getElementById('text');
+    document.getElementById('text2');
+
+    text.classList.add('dest');
+    text2.classList.add('dest');
+    target.classList.remove('frame');
+    target.classList.add('reframe');
   });
 
   document.addEventListener('keydown', e =>{

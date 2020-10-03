@@ -4,7 +4,23 @@ body{
   text-align: center;
 }
 
-#target{
-  font-size:48px ;
+.frame{
+  font-size:35px ;
   letter-spacing: .1em;
+  border: solid 3px;
+  border-radius: 6px;
+  width: 400px;
+  text-align: center;
+  margin: auto;
+  background: #FFFFEE;
+}
+.reframe{
+  font-size:30px ;
+  letter-spacing: .1em;
+  width: 400px;
+  text-align: center;
+  margin: auto;
+}
+.dest{
+  display: none;
 }
