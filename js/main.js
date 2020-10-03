@@ -14,9 +14,9 @@
     'let',
     'classList',
     'textContent',
-    '${',
+    'if',
     'function',
-    'Math.floor(Math.random',
+    'Math.floor',
   ]
 
   let word;
@@ -37,9 +37,10 @@
   target.addEventListener('click', () =>{
     document.getElementById('text');
     document.getElementById('text2');
-
+    document.getElementById('text3');
     text.classList.add('dest');
     text2.classList.add('dest');
+    text3.classList.add('dest');
     target.classList.remove('frame');
     target.classList.add('reframe');
   });
